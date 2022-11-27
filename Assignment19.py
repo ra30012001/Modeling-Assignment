@@ -1,11 +1,11 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-from sklearn import linear_model, preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Ridge
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
+from sklearn import linear_model, preprocessing
 
 heart = pd.read_csv("heart.csv")
 
